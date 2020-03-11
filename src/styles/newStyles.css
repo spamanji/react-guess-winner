@@ -1,0 +1,58 @@
+html,
+body {
+  min-height: 100%;
+  height: 100%;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  position: relative;
+  font-size: 100%;
+}
+
+.gallery-container {
+  padding-top: .9375rem;
+}
+
+.gallery-card {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 1.875rem;
+}
+
+.gallery-thumbnail {
+  max-width: 100%;
+  height: 10rem;
+  width: 10rem;
+  border-radius: 4px;
+}
+
+.gallery-thumbnail:hover {
+  cursor: pointer;
+}
+
+.popup {
+  width: 25%;
+  height: 25%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  border-radius: 20px;
+  background-color: rgba(129, 80, 141, 0.534);
+}
+
+.popup\_inner {
+  position: absolute;
+  left: 25%;
+  right: 25%;
+  top: 25%;
+  bottom: 25%;
+  margin: auto;
+  border-radius: 20px;
+  background: white;
+}

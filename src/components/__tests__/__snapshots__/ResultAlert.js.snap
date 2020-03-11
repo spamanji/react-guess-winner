@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Result Alert Component snapshot test - RTL 1`] = `
+<DocumentFragment>
+  <div
+    class="popup"
+  >
+    <div
+      class="popup\\\\_inner"
+    >
+      <h3>
+        Test content
+      </h3>
+      <button>
+        Play again
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;
